@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>Add Statement</title>
+
+    <meta name="description" content="description ---">
+ 
+    <meta name="keywords" content="word">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <!-- bootstrap -->
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+        <!-- select box -->
+    <link type="text/css" rel="stylesheet" href="assets/css/jquery.selectBox.css">
+
+    <!--  price range -->
+    <link type="text/css" rel="stylesheet" href="assets/css/rangeslider.css">
+
+    <!--  (shop) product slider -->
+    <link type="text/css" rel="stylesheet" href="assets/css/slick.css">
+
+    <!-- icon awesome   -->
+    <link type="text/css" rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+ 
+    <!-- icon themify -->
+    <link type="text/css" rel="stylesheet" href="assets/css/themify-icons.css">
+    
+    <!-- icon flaticon -->
+    <link type="text/css" rel="stylesheet" href="assets/fonts/flaticon/font/flaticon.css">
+
+    <!-- My Icon -->
+    <link type="text/css" rel="stylesheet" href="assets/icon/css/bootstrap-grid.css">
+    <link type="text/css" rel="stylesheet" href="assets/icon/css/icons.css">
+    <link type="text/css" rel="stylesheet" href="assets/icon/css/icon-style.css">
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPoppins:400,500,700,800,900%7CRoboto:100,300,400,400i,500,700">
+
+    <!-- MY Style -->
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="assets/css/skins/default.css">
+    
+</head>
+<body id="top">
+
+<div class="page_loader"></div>
+
+
+<!-- main header start -->
+<header class="main-header do-sticky" id="main-header-2">
+    <div class="container-fluid box-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light rounded">
+                    <a class="navbar-brand logo" href="index.html">
+                        <img src="assets/img/logos/black-logo.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav ml-auto mr-50">
+                            <li class="nav-item active">
+                                <a class="nav-link color-responsive" href="index.html#">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link color-responsive" href="about.html">About</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link color-responsive" href="contact.html">Contact</a>
+                            </li>
+
+                            <!--  HEART -->
+                            <div class="saved-box ml-50 mt-10">
+                                <a href="#">
+                                   <i class="fa fa-heart"></i>
+                                   <span>2</span>
+                                </a>
+                            </div>
+                            <!-- LANGUAGE -->
+                            <div class="lang-box mt-10">
+                                <div>
+                                    <span id="am-lang" class="por-lang chosen" onclick="changeLang('am-lang', this)"></span>
+                                    <span id="en-lang" class="ing-lang" onclick="changeLang('en-lang', this)"></span>
+                                    <span id="ru-lang" class="esp-lang" onclick="changeLang('ru-lang', this)"></span>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- main header end -->
+
+<!-- Sub banner start -->
+<div class="sub-banner overview-bgi">
+    <div class="container">
+        <div class="breadcrumb-area">
+            <h1>Add Statement</h1>
+        </div>
+    </div>
+</div>
+<!-- Sub banner end -->
+
+
+
+<div class="featured-properties content-area-5 search-area">
+    <div class="container">
+        <div class="saved-header">
+            <h2>Condition</h2>
+        </div>
+        <form>
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-sm-12 select-box">
+                    <select class="selectpicker search-fields" name="n">
+                            <option value="0">Մարզեր</option>
+                            <option value="1">&nbsp; Երևան</option>
+                            <option value="14">&nbsp; Արագածոտն</option>
+                            <option value="19">&nbsp; Արարատ</option>
+                            <option value="23">&nbsp; Արմավիր</option>
+                            <option value="35">&nbsp; Գեղարքունիք</option>
+                            <option value="40">&nbsp; Կոտայք</option>
+                            <option value="44">&nbsp; Լոռի</option>
+                            <option value="49">&nbsp; Շիրակ</option>
+                            <option value="52">&nbsp; Սյունիք</option>
+                            <option value="57">&nbsp; Տավուշ</option>
+                            <option value="61">&nbsp; Վայոց Ձոր</option>
+                    </select>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-sm-12 select-box">
+                    <select class="selectpicker search-fields" name="n">
+                        <option value="0">Ամբողջը</option>
+                        <option value="2"> &nbsp; &nbsp; Աջափնյակ</option>
+                        <option value="3"> &nbsp; &nbsp; Արաբկիր</option>
+                        <option value="4"> &nbsp; &nbsp; Ավան</option>
+                        <option value="5"> &nbsp; &nbsp; Դավիթաշեն</option>
+                        <option value="6"> &nbsp; &nbsp; Էրեբունի</option>
+                        <option value="7"> &nbsp; &nbsp; Քանաքեռ Զեյթուն</option>
+                        <option value="8"> &nbsp; &nbsp; Կենտրոն</option>
+                        <option value="9"> &nbsp; &nbsp; Մալաթիա Սեբաստիա</option>
+                        <option value="10"> &nbsp; &nbsp; Նոր Նորք</option>
+                        <option value="11"> &nbsp; &nbsp; Նորք Մարաշ</option>
+                        <option value="12"> &nbsp; &nbsp; Նուբարաշեն</option>
+                        <option value="13"> &nbsp; &nbsp; Շենգավիթ</option>
+
+                        <!-- <option value="14">Արագածոտն</option>
+                        <option value="15"> &nbsp; &nbsp; Ապարան</option>
+                        <option value="16"> &nbsp; &nbsp; Արագած</option>
+                        <option value="17"> &nbsp; &nbsp; Աշտարակ</option>
+                        <option value="92"> &nbsp; &nbsp; Կոշ</option>
+                        <option value="18"> &nbsp; &nbsp; Թալին</option>
+                        <option value="72"> &nbsp; &nbsp; Ուջան</option>
+                        <option value="19">Արարատ</option>
+                        <option value="20"> &nbsp; &nbsp; Արարատ</option>
+                        <option value="21"> &nbsp; &nbsp; Արտաշատ</option>
+                        <option value="80"> &nbsp; &nbsp; Գեղանիստ</option>
+                        <option value="22"> &nbsp; &nbsp; Մասիս</option>
+                        <option value="86"> &nbsp; &nbsp; Վեդի</option>
+                        <option value="23">Արմավիր</option>
+                        <option value="24"> &nbsp; &nbsp; Արմավիր</option>
+                        <option value="25"> &nbsp; &nbsp; Էջմիածին</option>
+                        <option value="26"> &nbsp; &nbsp; Մեծամոր</option>
+                        <option value="27">Արցախ</option>
+                        <option value="32"> &nbsp; &nbsp; Մարտակերտ</option>
+                        <option value="33"> &nbsp; &nbsp; Մարտունի</option>
+                        <option value="88"> &nbsp; &nbsp; Շահումյան</option>
+                        <option value="34"> &nbsp; &nbsp; Շուշի</option>
+                        <option value="28"> &nbsp; &nbsp; Ստեփանակերտ</option>
+                        <option value="35">Գեղարքունիք</option>
+                        <option value="71"> &nbsp; &nbsp; Ճամբարակ</option>
+                        <option value="36"> &nbsp; &nbsp; Գավառ</option>
+                        <option value="37"> &nbsp; &nbsp; Մարտունի </option>
+                        <option value="38"> &nbsp; &nbsp; Սևան</option>
+                        <option value="39"> &nbsp; &nbsp; Վարդենիս</option>
+                        <option value="40">Կոտայք</option>
+                        <option value="41"> &nbsp; &nbsp; Աբովյան</option>
+                        <option value="83"> &nbsp; &nbsp; Աղվերան</option>
+                        <option value="79"> &nbsp; &nbsp; Արգել</option>
+                        <option value="81"> &nbsp; &nbsp; Առինջ</option>
+                        <option value="93"> &nbsp; &nbsp; Արզնի</option>
+                        <option value="90"> &nbsp; &nbsp; Բջնի</option>
+                        <option value="76"> &nbsp; &nbsp; Բյուրեղավան</option>
+                        <option value="66"> &nbsp; &nbsp; Չարենցավան</option>
+                        <option value="89"> &nbsp; &nbsp; Ձորաղբյուր</option>
+                        <option value="77"> &nbsp; &nbsp; Գառնի</option>
+                        <option value="42"> &nbsp; &nbsp; Հրազդան</option>
+                        <option value="82"> &nbsp; &nbsp; Ջրվեժ</option>
+                        <option value="84"> &nbsp; &nbsp; Քանաքեռավան</option>
+                        <option value="85"> &nbsp; &nbsp; Քասախ</option>
+                        <option value="75"> &nbsp; &nbsp; Նոր Հաճըն</option>
+                        <option value="91"> &nbsp; &nbsp; Պտղնի</option>
+                        <option value="43"> &nbsp; &nbsp; Ծաղկաձոր</option>
+                        <option value="67"> &nbsp; &nbsp; Եղվարդ</option>
+                        <option value="70"> &nbsp; &nbsp; Զովունի</option>
+                        <option value="44">Լոռի</option>
+                        <option value="45"> &nbsp; &nbsp; Ալավերդի</option>
+                        <option value="46"> &nbsp; &nbsp; Սպիտակ</option>
+                        <option value="47"> &nbsp; &nbsp; Ստեփանավան</option>
+                        <option value="69"> &nbsp; &nbsp; Տաշիր</option>
+                        <option value="48"> &nbsp; &nbsp; Վանաձոր</option>
+                        <option value="49">Շիրակ</option>
+                        <option value="50"> &nbsp; &nbsp; Արթիկ</option>
+                        <option value="51"> &nbsp; &nbsp; Գյումրի</option>
+                        <option value="78"> &nbsp; &nbsp; Մարալիկ</option>
+                        <option value="52">Սյունիք</option>
+                        <option value="53"> &nbsp; &nbsp; Գորիս</option>
+                        <option value="74"> &nbsp; &nbsp; Քաջարան</option>
+                        <option value="54"> &nbsp; &nbsp; Կապան</option>
+                        <option value="55"> &nbsp; &nbsp; Մեղրի</option>
+                        <option value="56"> &nbsp; &nbsp; Սիսիան</option>
+                        <option value="57">Տավուշ</option>
+                        <option value="59"> &nbsp; &nbsp; Բերդ</option>
+                        <option value="58"> &nbsp; &nbsp; Դիլիջան</option>
+                        <option value="60"> &nbsp; &nbsp; Իջևան</option>
+                        <option value="68"> &nbsp; &nbsp; Նոյեմբերյան</option>
+                        <option value="61">Վայոց Ձոր</option>
+                        <option value="65"> &nbsp; &nbsp; Ջերմուկ</option>
+                        <option value="62"> &nbsp; &nbsp; Վայք</option>
+                        <option value="63"> &nbsp; &nbsp; Եղեգնաձոր</option>
+                        <option value="64">Հայաստանից դուրս</option> -->
+                    </select>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12  select-box select-box-input">
+                    <input type="text" name="" placeholder="Address">
+                </div>
+
+                 <!-- 1 statr -->
+                <div class="col-lg-3 col-md-3 col-sm-12  row-pading">
+                    <div class="statment-box">
+                        <div class="add-statment-radio">
+                            <h5>Sale or Rent</h5>
+                            <label class="check-radio">
+                                <h6>For Sale</h6>
+                                <!-- <i class="fas fa-percent"></i> -->
+                                <input type="radio" checked="checked" name="radio-1">
+                                <span class="checkmark-radio"></span>
+                            </label>
+                            <label class="check-radio">
+                                <h6>For Rent</h6>
+                                <!-- <i class="fas fa-percent"></i> -->
+                                <input type="radio" name="radio-1">
+                                <span class="checkmark-radio"></span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="statment-box">
+                        <div class="add-statment-radio">
+                            <h5>What Object</h5>
+                            <label class="check-radio">
+                                <h6>Apartment</h6>
+                                <!-- <i class="far fa-building"></i> -->
+                                <input type="radio" checked="checked" name="radio=1.1">
+                                <span class="checkmark-radio"></span>
+                            </label>
+                            <label class="check-radio">
+                                <h6>House</h6>
+                                <!-- <i class="ti-home"></i> -->
+                                <input type="radio" name="radio=1.1">
+                                <span class="checkmark-radio"></span>
+                            </label>
+                            <label class="check-radio">
+                                <h6>Office</h6>
+                                <!-- <i class="fas fa-briefcase"></i> -->
+                                <input type="radio" name="radio=1.1">
+                                <span class="checkmark-radio"></span>
+                            </label>
+                            <label class="check-radio">
+                                <h6>Factory</h6>
+                                <!-- <i class="fas fa-kaaba"></i> -->
+                                <input type="radio" name="radio=1.1">
+                                <span class="checkmark-radio"></span>
+                            </label>
+                            <label class="check-radio">
+                                <h6>Area</h6>
+                                <!-- <i class="far fa-map"></i> -->
+                                <input type="radio" name="radio=1.1">
+                                <span class="checkmark-radio"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1 end -->
+
+                <div class="col-lg-5 col-md-5 col-sm-12 row-pading">
+                    <div class="statment-box">
+                        <div class="add-statment-check">
+                             <h5>Rooms</h5>
+                             <label class="check-section">
+                                <h6>Living room</h6> 
+                                <input type="checkbox"> <!-- checked="checked" -->
+                                <span class="checkmark"></span>
+                                <input class="form-control-1 form-control-sm-1" type="number" min="0" max="9" step="1" value="0">
+                            </label>
+
+                            <label class="check-section">
+                                <h6>Bed rooms</h6> 
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                <input class="form-control-1 form-control-sm-1" type="number" min="0" max="9" step="1" value="0">
+                            </label>
+
+                            <label class="check-section">
+                                <h6>Bathroom</h6>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                <input class="form-control-1 form-control-sm-1" type="number" min="0" max="9" step="1" value="0">
+                            </label>
+
+                            <label class="check-section">
+                                <h6>Game room</h6>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                <input class="form-control-1 form-control-sm-1" type="number" min="0" max="9" step="1" value="0">
+                            </label>
+
+                            <label class="check-section">
+                                <h6>Gym</h6>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                <input class="form-control-1 form-control-sm-1" type="number" min="0" max="9" step="1" value="0">
+                            </label>
+
+                            <label class="check-section">
+                                <h6>Swimming Pool</h6>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                <input class="form-control-1 form-control-sm-1" type="number" min="0" max="9" step="1" value="0">
+                            </label>
+
+                            <label class="check-section">
+                                <h6>Home theater</h6>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                <input class="form-control-1 form-control-sm-1" type="number" min="0" max="9" step="1" value="0">
+                            </label>
+
+                            <label class="check-section">
+                                <h6>Balcony</h6>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                <input class="form-control-1 form-control-sm-1" type="number" min="0" max="9" step="1" value="0">
+                            </label>
+
+                            <label class="check-section">
+                                <h6>Floor</h6>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                <input class="form-control-1 form-control-sm-1" type="number" min="0" max="9" step="1" value="0">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 row-pading">
+                    <div class="statment-box">
+                        <div class="add-statment-check">
+                             <h5>Spase</h5>
+                            <label class="check-section">
+                                <h6>Private space</h6> 
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                <input class="form-control-1 form-control-sm-1" type="number" min="0" max="9" step="1" value="0">
+                            </label>
+
+                            <label class="check-section">
+                                <h6>Garage</h6> 
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                <input class="form-control-1 form-control-sm-1" type="number" min="0" max="9" step="1" value="0">
+                            </label>
+
+                            <label class="check-section">
+                                <h6>Parking</h6> 
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                <input class="form-control-1 form-control-sm-1" type="number" min="0" max="9" step="1" value="0">
+                            </label>
+
+                            <label class="check-section">
+                                <h6>Play area</h6>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                <input class="form-control-1 form-control-sm-1" type="number" min="0" max="9" step="1" value="0">
+                            </label>
+
+                            <label class="check-section">
+                                <h6>Fence</h6>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                <input class="form-control-1 form-control-sm-1" type="number" min="0" max="9" step="1" value="0">
+                            </label>
+
+                            <div class="mt-30">
+                                <div class="space-input">
+                                    <input type="text" name="n" required="true" placeholder="Land area Sq m">
+                                </div>
+                                <div class="space-input mt-10">
+                                    <input type="text" name="n"  placeholder="Building area Sq m">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- INFO -->
+                <div class="col-lg-3 col-md-3 col-sm-12 row-pading info-box">
+                    <div class="statment-box">
+                        <div class="add-statment-check">
+                            <h5>Facilities</h5>
+                        <label class="check-section">
+                            <h6>WATER</h6> 
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="check-section">
+                            <h6>GAS</h6> 
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="check-section">
+                            <h6>ELECTRICITY</h6>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="check-section">
+                            <h6>HOT WATER</h6>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="check-section">
+                            <h6>HEATING</h6>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="check-section">
+                            <h6>The Internet</h6>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="check-section">
+                            <h6>AIR-CONDITIONER</h6>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-12 row-pading info-box">
+                    <div class="statment-box">
+                        <div class="add-statment-check">
+                             <h5>Aditional information</h5>
+                            <label class="check-section">
+                                <h6>EURO WINDOWS</h6> 
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+
+                            <label class="check-section">
+                                <h6>IRON DOOR</h6> 
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+
+                            <label class="check-section">
+                                <h6>EQUIPMENT</h6>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+
+                            <label class="check-section">
+                                <h6>FURNITURE</h6>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+
+                            <label class="check-section">
+                                <h6>SECURITY SYSTEM</h6>
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 row-pading info-box">
+                    <div class="statment-box">
+                        <textarea name="message" placeholder="Aditional information"></textarea>
+                    </div>
+                </div>
+                <!-- INFO end -->
+
+                <div class="add-statment-check statment-box mt-30">
+                    <h5>Add Images</h5>
+                    <!--  ADD IMG -->
+                    <div class="images">
+                        <div class="pic">
+                           Add Img
+                        </div>
+                    </div>
+                </div>
+
+                <div class="add-statment-check statment-box mt-30">
+                    <h5>Add Video</h5>
+                    <!--  ADD VIDEO -->
+                    <div class="add-video">
+                       <input type="file" class="fileuploader" style="display: none;">
+                       <button class="fileuploader-btn">Add Video</button><br>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-12 add-button">
+                    <div class="send-btn mt-20">
+                        <button type="submit" class="btn btn-color btn-md">To Assert</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+<!-- Footer start -->
+<footer class="footer">
+    <div class="container footer-inner">
+        <div class="row">
+            <div class="col-xl-6 col-md-6 col-sm-12 col-12">
+                <ul class="social-list clearfix">
+                    <li><a href="index-6.html#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="index-6.html#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                    <li><p class="">© 2019. All Rights Reserved</p></li>
+                </ul>
+            </div>
+            <div class="col-xl-6 col-md-6 col-sm-12 col-12">
+                <a href="http://armcoding.com/" class="copy by-compny" target="blank">By <span>ArmCoding</span> Company </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer end -->
+
+
+
+<!-- jquery js  -->
+<script src="assets/js/jquery-2.2.0.min.js"></script>
+
+<script src="assets/js/slick-plugin.js"></script>
+<script src="assets/js/slick.js"></script>
+
+<script src="assets/js/bootstrap.min.js"></script>
+
+<script src="assets/js/jquery.selectBox.js"></script> <!-- search -->
+
+<script src="assets/js/rangeslider.js"></script> <!-- price -->
+
+<script src="assets/js/jquery.filterizr.js"></script> <!-- izotom -->
+
+<script src="assets/js/jquery.scrollUp.js"></script> <!-- scrol -->
+
+<script src="assets/js/typed.min.js"></script> 
+
+<script  src="assets/js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>Favorite</title>
+
+    <meta name="description" content="description ---">
+ 
+    <meta name="keywords" content="word">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <!-- bootstrap -->
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+        <!-- select box -->
+    <link type="text/css" rel="stylesheet" href="assets/css/jquery.selectBox.css">
+
+    <!--  price range -->
+    <link type="text/css" rel="stylesheet" href="assets/css/rangeslider.css">
+
+    <!--  (shop) product slider -->
+    <link type="text/css" rel="stylesheet" href="assets/css/slick.css">
+
+    <!-- icon awesome   -->
+    <link type="text/css" rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+ 
+    <!-- icon themify -->
+    <link type="text/css" rel="stylesheet" href="assets/css/themify-icons.css">
+    
+    <!-- icon flaticon -->
+    <link type="text/css" rel="stylesheet" href="assets/fonts/flaticon/font/flaticon.css">
+
+    <!-- My Icon -->
+    <link type="text/css" rel="stylesheet" href="assets/icon/css/bootstrap-grid.css">
+    <link type="text/css" rel="stylesheet" href="assets/icon/css/icons.css">
+    <link type="text/css" rel="stylesheet" href="assets/icon/css/icon-style.css">
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPoppins:400,500,700,800,900%7CRoboto:100,300,400,400i,500,700">
+
+    <!-- MY Style -->
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="assets/css/skins/default.css">
+    
+</head>
+<body id="top">
+
+<div class="page_loader"></div>
+
+<!-- main header start -->
+<header class="main-header do-sticky" id="main-header-2">
+    <div class="container-fluid box-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light rounded">
+                    <a class="navbar-brand logo" href="index.html">
+                        <img src="assets/img/logos/black-logo.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav ml-auto mr-50">
+                            <li class="nav-item active">
+                                <a class="nav-link color-responsive" href="index.html#">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link color-responsive" href="about.html">About</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link color-responsive" href="contact.html">Contact</a>
+                            </li>
+
+                            <!--  HEART -->
+                            <div class="saved-box ml-50 mt-10">
+                                <a href="#">
+                                   <i class="fa fa-heart"></i>
+                                   <span>2</span>
+                                </a>
+                            </div>
+                            <!-- LANGUAGE -->
+                            <div class="lang-box mt-10">
+                                <div>
+                                    <span id="am-lang" class="por-lang chosen" onclick="changeLang('am-lang', this)"></span>
+                                    <span id="en-lang" class="ing-lang" onclick="changeLang('en-lang', this)"></span>
+                                    <span id="ru-lang" class="esp-lang" onclick="changeLang('ru-lang', this)"></span>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- main header end -->
+
+<!-- Sub banner start -->
+<div class="sub-banner overview-bgi">
+    <div class="container">
+        <div class="breadcrumb-area">
+            <h1>Favorite</h1>
+        </div>
+    </div>
+</div>
+<!-- Sub banner end -->
+
+
+
+<!-- saved-prod -->
+
+<div class="featured-properties content-area-5">
+    <div class="container">
+        <div class="saved-header">
+            <h3>My favorite</h3>
+        </div>
+        <div class="row">
+            
+            <div class="col-lg-4 col-md-6 col-sm-12 filtr-item remove-box">
+                <div class="property-box-7">
+                    <div class="property-thumbnail">
+                        <div class="listing-badges">
+                            <span class="featured">For Sale</span>
+                        </div>
+                        <div class="price-box">ID 000865</div>
+                        <img src="assets/img/property-10.jpg" alt="property-2" class="img-fluid">
+                    </div>
+                    <div class="detail">
+                        <h1 class="title">
+                            <a href="durrealty-detail.html">Real Luxury Villa</a>
+                        </h1>
+                        <div class="location">
+                            <i class="flaticon-facebook-placeholder-for-locate-places-on-maps"></i>123 Kathal St. Tampa City,
+                        </div>
+                    </div>
+                    <ul class="facilities-list clearfix">
+                        <li>
+                            <span>Area</span>3600 Sqm
+                        </li>
+                        <li>
+                            <span>Room</span> 3
+                        </li>
+                        <li>
+                            <span>Baths</span> 2
+                        </li>
+                        <li>
+                            <span>Garage</span> 1
+                        </li>
+                    </ul>
+                    <div class="footer clearfix">
+                        <div class="pull-left">
+                            <p>$250000 <span>For Sale</span></p>
+                        </div>
+                        <ul class="pull-right">
+                            <li><i class="ti-eye"></i> <span> 105</span></li>
+                            <li><a href="durrealty-detail.html"><i class="ti-layout-grid2"></i></a></li>
+                            <li class="wrapper-demo">
+                                  <button class="toggle-icon remove -checked"></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 filtr-item remove-box">
+                <div class="property-box-7">
+                    <div class="property-thumbnail">
+                        <div class="listing-badges">
+                            <span class="featured">For Sale</span>
+                        </div>
+                        <div class="price-box">ID 000865</div>
+                        <img src="assets/img/property-2.jpg" alt="property-2" class="img-fluid">
+                    </div>
+                    <div class="detail">
+                        <h1 class="title">
+                            <a href="durrealty-detail.html">Real Luxury Villa</a>
+                        </h1>
+                        <div class="location">
+                            <i class="flaticon-facebook-placeholder-for-locate-places-on-maps"></i>123 Kathal St. Tampa City,
+                        </div>
+                    </div>
+                    <ul class="facilities-list clearfix">
+                        <li>
+                            <span>Area</span>3600 Sqm
+                        </li>
+                        <li>
+                            <span>Room</span> 3
+                        </li>
+                        <li>
+                            <span>Baths</span> 2
+                        </li>
+                        <li>
+                            <span>Garage</span> 1
+                        </li>
+                    </ul>
+                    <div class="footer clearfix">
+                        <div class="pull-left">
+                            <p>$250000 <span>For Sale</span></p>
+                        </div>
+                        <ul class="pull-right">
+                            <li><i class="ti-eye"></i> <span> 203</span></li>
+                            <li><a href="durrealty-detail.html"><i class="ti-layout-grid2"></i></a></li>
+                            <li class="wrapper-demo">
+                                  <button class="toggle-icon remove -checked"></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 filtr-item remove-box">
+                <div class="property-box-7">
+                    <div class="property-thumbnail">
+                        <div class="listing-badges">
+                            <span class="featured">For Sale</span>
+                        </div>
+                        <div class="price-box">ID 000865</div>
+                        <img src="assets/img/property-7.jpg" alt="property-2" class="img-fluid">
+                    </div>
+                    <div class="detail">
+                        <h1 class="title">
+                            <a href="durrealty-detail.html">Real Luxury Villa</a>
+                        </h1>
+                        <div class="location">
+                            <i class="flaticon-facebook-placeholder-for-locate-places-on-maps"></i>123 Kathal St. Tampa City,
+                        </div>
+                    </div>
+                    <ul class="facilities-list clearfix">
+                        <li>
+                            <span>Area</span>3600 Sqm
+                        </li>
+                        <li>
+                            <span>Room</span> 3
+                        </li>
+                        <li>
+                            <span>Baths</span> 2
+                        </li>
+                        <li>
+                            <span>Garage</span> 1
+                        </li>
+                    </ul>
+                    <div class="footer clearfix">
+                        <div class="pull-left">
+                            <p>$250000 <span>For Sale</span></p>
+                        </div>
+                        <ul class="pull-right">
+                            <li><i class="ti-eye"></i> <span> 23</span></li>
+                            <li><a href="durrealty-detail.html"><i class="ti-layout-grid2"></i></a></li>
+                            <li class="wrapper-demo">
+                                  <button class="toggle-icon remove -checked"></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>    
+    </div>
+</div>
+
+
+
+<!-- Footer start -->
+<footer class="footer">
+    <div class="container footer-inner">
+        <div class="row">
+            <div class="col-xl-6 col-md-6 col-sm-12 col-12">
+                <ul class="social-list clearfix">
+                    <li><a href="index-6.html#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="index-6.html#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                    <li><p class="">© 2019. All Rights Reserved</p></li>
+                </ul>
+            </div>
+            <div class="col-xl-6 col-md-6 col-sm-12 col-12">
+                <a href="http://armcoding.com/" class="copy by-compny" target="blank">By <span>ArmCoding</span> Company </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer end -->
+
+
+
+<!-- jquery js  -->
+<script src="assets/js/jquery-2.2.0.min.js"></script>
+
+<script src="assets/js/slick-plugin.js"></script>
+<script src="assets/js/slick.js"></script>
+
+<script src="assets/js/bootstrap.min.js"></script>
+
+<script src="assets/js/jquery.selectBox.js"></script> <!-- search -->
+
+<script src="assets/js/rangeslider.js"></script> <!-- price -->
+
+<script src="assets/js/jquery.filterizr.js"></script> <!-- izotom -->
+
+<script src="assets/js/jquery.scrollUp.js"></script> <!-- scrol -->
+
+<script src="assets/js/typed.min.js"></script> 
+
+<script  src="assets/js/app.js"></script>
+
+</body>
+</html>
